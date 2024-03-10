@@ -1,0 +1,23 @@
+
+/* NOTE: set your target theme name (ex: skeleton, wintry, modern, etc) */
+
+:root [data-theme='skeleton'] {
+  --theme-rounded-base: 20px;
+  --theme-rounded-container: 4px;
+}
+
+
+/* Default setting: */
+body { @apply bg-surface-50-900-token; }
+
+/* --- */
+
+/* Example: primary color via a design token: */
+body { @apply bg-primary-50-900-token; }
+
+/* Example: secondary color via Tailwind: */
+body { @apply bg-secondary-50 dark:bg-secondary-900; }
+
+/* Example: using vanilla CSS: */
+body { background: red; }
+.dark body { background: blue; }
